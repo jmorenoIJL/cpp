@@ -1,4 +1,6 @@
 // Uso de un arreglo
+// tema // https://www.include-poetry.com/Code/C++/Estructuras/Arreglos/
+// compilador // https://www.onlinegdb.com/online_c++_compiler
 #include <iostream>
 using namespace std;
 
