@@ -1,5 +1,6 @@
 // Uso de un arreglo
 // tema // https://www.include-poetry.com/Code/C++/Estructuras/Arreglos/
+// tema // https://www.programarya.com/Cursos/C++/Estructuras-de-Datos/Arreglos-o-Vectores
 // compilador // https://www.onlinegdb.com/online_c++_compiler
 #include <iostream>
 using namespace std;
