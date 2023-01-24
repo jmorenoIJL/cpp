@@ -1,16 +1,17 @@
-// compilador // https://www.onlinegdb.com/online_c++_compiler
+// compilador :: https://www.onlinegdb.com/online_c++_compiler
+// referencia :: https://algoritmosyalgomas.com/ejercicios-con-matrices-en-c/
 
 /* Hacer un algoritmo que:
-	a) Almacene números aleatorios (menores o iguales a 10) en una matriz de 5 * 6. 
-	b) Recorra la matriz: mostrando sus elementos
-	c) Imprima la suma de los números almacenados en la matriz. 
-	d) Imprima la suma de los números pares almacenados en la matriz
-	e) Imprima la suma de los números impares almacenados en la matriz
-	f) Imprima la suma de cada columnas
-	g) Imprima la suma de cada fila
-	h) Imprima la suma de los elementos de la diagonal principal
-	i) Imprima la transpuesta de la matriz
-	*/
+a) Almacene números aleatorios (menores o iguales a 10) en una matriz de 5 * 6. 
+b) Recorra la matriz: mostrando sus elementos
+c) Imprima la suma de los números almacenados en la matriz. 
+d) Imprima la suma de los números pares almacenados en la matriz
+e) Imprima la suma de los números impares almacenados en la matriz
+f) Imprima la suma de cada columnas
+g) Imprima la suma de cada fila
+h) Imprima la suma de los elementos de la diagonal principal
+i) Imprima la transpuesta de la matriz
+*/
 
 #include <iostream>
 #include <cstdlib>
