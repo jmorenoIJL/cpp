@@ -21,6 +21,5 @@ int main(){
        cout << "posicion " << i <<"->" << numeros[i] << " \n";
     }
 
-    
     return 0;
 }
