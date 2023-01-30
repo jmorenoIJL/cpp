@@ -10,7 +10,7 @@ int main(){
     cout<< "te voy a solicitar 3 numeros, escribelos y pulsa enter.\n";
     
     int numeros[3], i, limite;
-    limite = 3;
+    limite = 3; // solicitarlo al usuario 
     
     for (i=0; i < limite; i++){ // Pedimos X números
        cin >> numeros[i];
