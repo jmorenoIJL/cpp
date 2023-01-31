@@ -1,0 +1,42 @@
+donde usamos un arreglo?
+
+tenemos variables  con el mismo tratamiento.
+
+fechas / dias / meses /
+[]
+{}
+
+numeros aleatorios
+filas
+
+*ordenar elementos
+*recibimos datos del mismo tipo 
+
+
+
+string nombres[5] = {
+    "Ramiro",
+    "Andrea",
+    "Carlos",
+    "Sebastian",
+    "Ivonne",
+}
+
+0 => Ramiro
+1 => Andrea
+2 => Carlos 
+3 => Sebastian
+4 => Ivonne
+
+necesitas subir ? 
+si 
+no
+talvez 
+nunca
+
+
+calle1 = 's';
+calle1 = 's';
+calle1 = 's';
+
+numIn = 
