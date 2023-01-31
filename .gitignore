@@ -1,6 +1,7 @@
 
 *.exe
-/.vs/*
-/.vscode/*
-/vs/*
-/vscode/*
+.vs/*
+.vscode/*
+
+
+.vscode/tasks.json
