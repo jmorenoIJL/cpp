@@ -18,10 +18,11 @@ int main()
     time(&now);
     struct tm *local = localtime(&now);
     seconds = local->tm_sec;
+    
     printf("segundo is %02d \n", seconds);
     
 
-    multiplicador = seconds*331;
+    multiplicador = seconds*562;
 
     for (int i = 0; i < n; i++) {
         //  cout << "Ingrese un numero: ";
