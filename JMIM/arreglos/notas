@@ -13,6 +13,9 @@ filas
 *recibimos datos del mismo tipo 
 
 
+para la media o promedio  ==> acumulador o suma += arreglo[posicion_actual]
+
+
 
 string nombres[5] = {
     "Ramiro",

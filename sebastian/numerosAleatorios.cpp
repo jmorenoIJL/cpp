@@ -1,8 +1,10 @@
 #include <iostream>
+#include <time.h>
 using namespace std;
 
 int main()
 {
+    srand(time(0));
     int n = 0;
     cout << "¿Cuantos numeros quieres ver?: " << endl;
     cin >> n;

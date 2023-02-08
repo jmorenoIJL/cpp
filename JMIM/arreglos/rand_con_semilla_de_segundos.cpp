@@ -1,17 +1,32 @@
 #include <iostream>
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
 
 int main()
 {
-    int n = 0;
+    int seconds, multiplicador, n = 0;
+    
     cout << "¿Cuantos numeros quieres ver?: " << endl;
     cin >> n;
     int arreglo[n];
     
+    
+    
+    time_t now;
+    time(&now);
+    struct tm *local = localtime(&now);
+    seconds = local->tm_sec;
+    
+    printf("segundo is %02d \n", seconds);
+    
+
+    multiplicador = seconds*562;
 
     for (int i = 0; i < n; i++) {
         //  cout << "Ingrese un numero: ";
-        arreglo[i] = rand() % 100;
+        arreglo[i] = rand() % multiplicador;
 
     }
 
