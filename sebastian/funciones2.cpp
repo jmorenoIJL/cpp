@@ -1,49 +1,30 @@
-
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-void rellenarNombre(string arr[], int tam) {
-    for (int i = 0; i < tam; i++) {
-        cout << "Ingrese el nombre del " << i + 1 << " participante: ";
-        cin >> arr[i];
-    } 
-}
 
-void rellenarApp(string arr[], int tam) {
+void rellenarArr(string arr[], int tam, char proposito) {
     for (int i = 0; i < tam; i++) {
-    cout << "Ingrese el apellido paterno del " << i + 1 << " participante: ";
-    cin >> arr[i];
-    } 
-}
-
-void rellenarColor(string arr[], int tam) {
-    for (int i = 0; i < tam; i++) {
-        cout << "Ingrese el color favorito del " << i + 1 << " participante: ";
-        cin >> arr[i];
-    } 
-}
-
-/*
-void mostrarArrNombres(string arr[], int tam) {
-    for (int i = 0; i < tam; i++) {
-        cout << "\n Nombre: " << arr[i] << "\n";
+        switch (proposito)
+        {
+        case 'n':
+            cout << "Ingrese el nombre del " << i + 1 << " participante: "; 
+            cin >> arr[i];
+            break;
+        case 'a':
+            cout << "Ingrese el apellido paterno del " << i + 1 << " participante: ";
+            cin >> arr[i];
+            break;
+        case 'c':
+            cout << "Ingrese el color favorito del " << i + 1 << " particpante: ";
+            cin >> arr[i];
+            break;
+        default:
+            break;
+        }
     }
 }
-
-void mostrarArrApp(string arr[], int tam) {
-    for (int i = 0; i < tam; i++) {
-        cout << "\n Apellido: " << arr[i] << "\n";
-    }
-}
-
-void mostrarArrColor(string arr[], int tam) {
-    for (int i = 0; i < tam; i++) {
-        cout << "\n Color: " << arr[i] << "\n";
-    }
-}
-*/
 
 int main()
 {
@@ -54,19 +35,9 @@ int main()
     string app[tam];
     string color[tam];
     
-    rellenarNombre(nombres, tam);
-    rellenarApp(app, tam);
-    rellenarColor(color, tam);
-    
-    /*
-    mostrarArrNombres(nombres, tam);
-    mostrarArrApp(app, tam);
-    mostrarArrColor(color, tam);
-    
-    en esta parte no salia como sale sin hacerlo con función así que así lo deje
-    y no sabía como hacerle :(
-    */
-    
+    rellenarArr(nombres, tam, 'n');
+    rellenarArr(app, tam, 'a');
+    rellenarArr(color, tam, 'c');
     
     for (int i = 0; i < tam; i++) {
        cout << " Persona " << i + 1 << endl;
